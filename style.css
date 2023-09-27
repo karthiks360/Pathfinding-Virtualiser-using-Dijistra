@@ -294,10 +294,9 @@ body.path {
 }
 
 .maze-random-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
 }
 
 .sorting-button {
